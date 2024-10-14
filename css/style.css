@@ -1,0 +1,310 @@
+/********** Template CSS **********/
+:root {
+    --primary: #3CB815;
+    --secondary: #F65005;
+    --light: #F7F8FC;
+    --dark: #111111;
+}
+
+
+/*** Section Header ***/
+.section-header {
+    position: relative;
+    padding-top: 25px;
+}
+
+.section-header::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--primary);
+}
+
+
+
+.section-header::after {
+    position: absolute;
+    content: "";
+    width: 90px;
+    height: 2px;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--secondary);
+}
+
+.section-header.text-start::before,
+.section-header.text-start::after {
+    left: 0;
+    transform: translateX(0);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: green;  
+  border-radius: 50%;       
+  width: 50px;             
+  height: 50px;            
+  display: flex;            
+  align-items: center;      
+  justify-content: center;  
+}
+
+.mejoresFrutas{
+    display: flex;
+    flex-direction: row;
+}
+
+.mejoresFrutascontent{
+    width: 50%;
+}
+
+.mejoresFrutasimg{
+    width: 50%;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.navbar-toggler-icon {
+    color: black; /* Make sure the toggle icon is visible */
+  }
+
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    padding-left: 20px;
+}
+
+.carousel-caption .btn {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.h1{
+    font-size: 50px;
+}
+
+.nosCaracteriza{
+    text-align: center;
+    background-color: white;
+}
+
+.info div{
+    margin-bottom: 25px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.info p{
+    font-size: 20px;
+}
+
+.info{
+    justify-content: center;
+}
+
+.product{
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-bottom: 30px;
+    border-color: gray;
+    border: solid;
+}
+
+.nosProduct{
+    float: left;
+}
+
+.productBtns{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+li{
+    list-style-type: none;
+}
+
+.productos{
+    margin: 5%;
+    margin: 5%;
+    justify-content: center;
+}
+
+.productIndex{
+    float: right;
+
+}
+
+.productosheader{
+    margin-top: 25px;
+}
+
+.productosPrincipal{
+    justify-content: left;
+    clear: both;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+
+.nosCaracteriza{
+    display: flex;
+}
+
+.productOpt {
+    display: flex;
+    justify-content: space-between; 
+    text-align: center; 
+    width: 100%;
+    height: 30px;
+    border-top: solid;
+}
+
+.productOpt small{
+    flex: 1;
+}
+
+.productOpt small i{
+    margin-right: 2px;
+}
+
+.productInfo{
+    align-content: center;
+    text-align: center;
+    justify-items: center;
+    height: 100px;
+}
+
+.fincas{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primary);
+    color: white;
+    height: 360px;
+}
+
+.fincas .fincaInfo{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+
+.fincas .fincaInfo .fincaText{
+    padding: 30px;
+    align-content: center;
+    color: white;
+    width: 50%;
+}
+
+.fincas .fincaInfo .fincaText h1{
+    color: white;
+}
+
+.fincas .fincaBtn{
+    color: white;
+    text-align: center;
+    align-content: center;
+    width: 50%;
+}
+
+.fincas .fincaBtn a{
+    color: white;
+}
+
+.blogpost{
+    background-color: var(--light);
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 400px;
+    width: 360px;
+}
+
+.blogpost img{
+    width: 360px;
+    height: 250px;
+}
+
+.blogpost div a{
+    text-align: center;
+    font-size: 20px;
+}
+
+.posts{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.Blog{
+    margin-left:  5%;
+    margin-right:  5%;
+}
+
+.blogpostText{
+    padding: 24px;
+    text-align: center;
+}
+
+.footer{
+    background-color: var(--dark);
+    height: 100%;
+    margin-top: 40px;
+}
+
+.footerinner{
+    display: flex;
+    flex-direction: row;
+}
+
+.footersect{
+    width: 35%;
+    padding-top: 35px;
+    padding-left: 25px;
+}
+
+.footersect h1{
+    color: white;
+}
+
+.footersect h4{
+    color: white;
+}
+
+.footersect a{
+    color: grey;
+}
+
+.viewdetail{
+    border-right: solid;
+}
+
+.btn{
+    margin-right: 5px;
+}
+
+.footersect i{
+    margin-right: 8px;
+}
+
+.btnlist a:hover{
+    background-color: #3CB815;
+}
+

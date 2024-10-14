@@ -1,0 +1,76 @@
+
+
+@media only screen and (max-width: 800px){
+    .mejoresFrutas{
+        flex-direction: column;
+    }
+
+    .mejoresFrutascontent{
+        width: 100%;
+    }
+    
+    .mejoresFrutasimg{
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .info .col-sm-4{
+        margin-bottom: 0px;
+    }
+
+    .carousel-caption {
+        top: 60%;
+        left: 10%;
+        transform: translateY(-60%);
+        text-align: center;
+        padding-left: 0;
+        width: 80%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption .btn {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+      .fincas{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+      }
+
+      .fincas .fincaInfo{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .fincaInfo .fincaText{
+        width: 100%;
+      }
+
+      .fincaInfo .fincaBtn{
+        height: 70px;
+        padding-top: 2px;
+        padding-left: 23px;
+        width: 100%;
+      }
+
+      .footerinner{
+        flex-direction: column;
+        justify-content: left;
+      }
+
+      .Blog .posts{
+        flex-direction: column;
+      }
+
+      .productos .row{
+        height: 20px
+      }
+}
